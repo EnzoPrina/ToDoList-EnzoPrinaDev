@@ -30,7 +30,7 @@ html {
   }
 
 body {
-    background: rgba(0, 0, 0, 0.7) url(../images/fondo.jpg);
+    background: rgba(0, 0, 0, 0.7) url(../public/images/fondo.jpg);
     background-blend-mode: darken;
     background-size: 10rem;
     height: auto;
@@ -67,7 +67,7 @@ h1 {
 
 
 .sidebar {
-    background-color: var(--azul);
+    background-color: var(--negro);
     border: none 1px solid;
     width: 25rem;
     height: 100rem;
@@ -81,14 +81,18 @@ h1 {
 
 /* BOTONES */
 
+.botones {
+  padding-top: 2px;
+}
+
 .boton {
     color: rgba(255, 255, 255, 0.849) !important;
     font-size: 2rem;
     font-weight: 300;
     padding: 0.5em 1.2em;
-    background: var(--azul);
+    background: var(--negro);
     border: 2px solid;
-    border-color: var(--azul);
+    border-color: var(--negro);
     position: relative;
     border-radius: 1rem;
 }
