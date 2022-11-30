@@ -70,7 +70,7 @@ h1 {
     background-color: var(--negro);
     border: none 1px solid;
     width: 25rem;
-    height: 100rem;
+    height: 100vh;
 }
 
 .logo-app {
@@ -82,7 +82,7 @@ h1 {
 /* BOTONES */
 
 .botones {
-  padding-top: 2px;
+  padding-top: 4px;
 }
 
 .boton {
@@ -95,6 +95,8 @@ h1 {
     border-color: var(--negro);
     position: relative;
     border-radius: 1rem;
+    text-decoration: none;
+    margin: 10rem 0;
 }
   
   .boton:before {

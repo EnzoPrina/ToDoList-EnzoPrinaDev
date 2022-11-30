@@ -1,10 +1,12 @@
 
-
+''
 const formulario = document.getElementById('formulario')
 const input = document.getElementById('input')
 const listaTarea = document.getElementById('lista-tareas')
 const template = document.getElementById('template').content
 const fragment = document.createDocumentFragment()
+
+
 // let tareas = {
 //     1658184307505:{
 //         id: 1658184307505,
