@@ -30,7 +30,7 @@ html {
   }
 
 body {
-    background: rgba(0, 0, 0, 0.7) url(../public/images/fondo.jpg);
+    background: rgba(0, 0, 0, 0.7) url(/public/images/fondo.jpg);
     background-blend-mode: darken;
     background-size: 10rem;
     height: auto;
@@ -73,17 +73,17 @@ h1 {
     height: 100vh;
 }
 
-.logo-app {
-    max-width: 20rem;
-    padding: 1rem 0 0 1rem;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
-}
 
 /* BOTONES */
 
 .botones {
   padding-top: 4px;
 }
+.logo-app {
+  max-width: 100%;
+  padding: 10px 0;
+}
+
 
 .boton {
     color: rgba(255, 255, 255, 0.849) !important;
